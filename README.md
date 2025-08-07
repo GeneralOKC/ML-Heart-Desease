@@ -14,7 +14,7 @@
 10. Oldpeak: oldpeak = ST [Numeric value measured in depression]
 11. ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 12. HeartDisease: output class [1: heart disease, 0: Normal]
-<br/>
+
 Были рассмотрены различные модели:
 1. Логистическая регрессия
 2. Метод опорных векторов (SVC)
