@@ -13,4 +13,12 @@
 9. ExerciseAngina: exercise-induced angina [Y: Yes, N: No]
 10. Oldpeak: oldpeak = ST [Numeric value measured in depression]
 11. ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
-12. HeartDisease: output class [1: heart disease, 0: Normal]
+12. HeartDisease: output class [1: heart disease, 0: Normal] <br/>
+
+Были рассмотрены различные модели:
+1. Логистическая регрессия
+2. Метод опорных векторов (SVC)
+3. Дерево решений
+4. Случайный лес
+5. Метод k ближайших соседей (k=3) <br/>
+Лучше всего себя показали логистическая регрессия, метод опорных векторов и случайный лес. Была достигнута точность 90% по метрике accuracy.
